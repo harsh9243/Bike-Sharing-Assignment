@@ -11,10 +11,11 @@
 - This assignment is based on the bike-sharing system dataset. The dataset contains the hourly count of rental bikes between years 2011 and 2012 in the Capital bikeshare system with the corresponding weather and seasonal information. The dataset is publicly available on the UCI Machine Learning Repository. The dataset has been used for this assignment is available at the following link: [Bike Sharing Dataset](https://archive.ics.uci.edu/ml/datasets/Bike+Sharing+Dataset)
 - The objective of this assignment is to perform an exploratory data analysis of the bike-sharing system dataset. The analysis will help in understanding the patterns and trends in the bike-sharing system dataset. The analysis will also help in understanding the factors that affect the demand for rental bikes. The analysis will also help in understanding the impact of weather and seasonal factors on the demand for rental bikes.
 - The analysis will be performed using the Python programming language and its libraries for data analysis and visualization. The analysis will be performed using the Jupyter Notebook environment. The analysis will be performed using the following steps:
-  - Data Preprocessing
-  - Data Visualization
-  - Exploratory Data Analysis
-  - Conclusion
+  - Data Understanding and EDA
+  - Data Preparation
+  - Modelling
+  - Verify assumptions of Linear Regression and Model Evaluation
+  - Conclusion and Insights
 
 ## Technologies Used
 - Python - version 3.9
@@ -27,10 +28,6 @@
 - Statsmodels - version 0.14.1
 
 ## Observation
-- The predicted model will follow the following linear equation: 
-```
-  y = 0.2876 + 0.2364yr + 0.3905temp - 0.1474windspeed - 0.1069season_spring + 0.0421season_winter - 0.0501mnth_Jan + 0.0647mnth_Sep - 0.0464weekday_Tuesday - 0.0778Mist - 0.2904Snow
-```
 - Demand is strongly correlated with temperature and it increases when temperature rises
 - Demand is increasing YOY basis
 - In Spring season demand for bikes decreases
